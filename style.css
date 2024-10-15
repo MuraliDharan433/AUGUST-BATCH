@@ -111,6 +111,7 @@ body{
     grid-row-end: 3;
 }
 
-.box{
+.box-container div:nth-child(4){
     width: 200px;
+    color: red;
 }
