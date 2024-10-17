@@ -1,0 +1,32 @@
+.main{
+width:100%;
+background-color: coral;
+/* display:flex; */
+
+}
+.sub{
+width:100px;
+height:100px;
+background-color: blanchedalmond;
+margin:30px;
+border-radius: 50%;
+position:absolute;
+animation: anime 5s linear infinite alternate;
+}
+@keyframes anime {
+    0%{
+        left:0px;
+        top:0px;
+        background-color: blanchedalmond;
+    }
+    50%{
+        left: 200px;
+        top:200px;
+        background-color:pink;
+    }
+    100%{
+        left: 500px;
+        top:500px;
+        background-color:red;
+    }
+}

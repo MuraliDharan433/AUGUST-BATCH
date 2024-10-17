@@ -1,0 +1,28 @@
+.Rocketlaunch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    position:absolute;
+    animation: anime 10s linear infinite;
+}
+.Rocketlaunch Rocket{
+    display:flex;
+    align-self: last baseline;
+}
+    @keyframes anime {
+        0%{
+            left:50px;
+            bottom:0px;
+        
+        }
+        50%{
+            left: 200px;
+            bottom:200px;}
+        
+        100%{
+            left: 500px;
+            bottom:500px;
+        
+        }
+    }
