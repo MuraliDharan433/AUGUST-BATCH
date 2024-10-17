@@ -6,7 +6,16 @@
      <title>Document</title>
 </head>
 <body>
-     <h1>Stage a dream</h1>
-     <h2></h2>
+     <canvas id="myCanvas" width="400" height="400"></canvas>
+
+     <script>
+       var canvas = document.getElementById('myCanvas');
+       var context = canvas.getContext('3d');
+       
+       // Draw a rectangle
+       context.fillStyle = '#FF0000'; // red color
+       context.fillRect(50, 50, 150, 100); // x, y, width, height
+     </script>
+     
 </body>
 </html>
