@@ -1,3 +1,5 @@
+"use strict";
+
 // // let a = 10;
 // // let b = 20;
 
@@ -248,12 +250,140 @@
 // let number = 3.6644
 // let value = number.toFixed(1)
 
+// let str = 'djbd'
+// let value = 0;
+// let user = prompt('Enter login')
 
-let str = 'Hello'
-let str2 = 'World'
-let str3 = 'Wellcome'
 
-console.log(str.split('e'));
+// if(user == 'login'){
+//      value += 1
+// }else{
+//      console.log('user is not login');
+     
+// }
+
+
+
+// if(value){
+//      console.log('If statement');
+     
+// }else{
+//      console.log('Else statement');
+     
+// }
+
+// const arr = [23,5,43,4364,4354,435,435,4,2]
+// const fruits = ["Banana", "Lemon", "Kiwi", "Apple", "Mango"];
+
+
+
+// let retunValue = fruits.reverse()
+
+// let val = retunValue.join('-')
+
+// console.log(val);
+
+
+
+// console.log(fruits);
+// console.log(retunValue);
+
+// let list = document.getElementById('list')
+
+// let appendData = () =>{
+//      var names = ["Bob ", "Alice ", "Ceaser ", "David",'Murali'];
+
+//      let listitems = "";
+
+//      names.forEach((data)=>{
+//           listitems += `<li>${data}</li>`
+          
+//      })
+
+//      list.innerHTML = listitems;
+
+
+// }
+
+// appendData()
+// let obj2 = {
+//      role:"Web Dev"
+// }
+
+// let obj = {
+//      fname:'murali',
+//      lname:'dharan',
+//      age:21,
+//      role:'WebDeveloper',
+//      isEmploye: false,
+//      fullName:function(location = '',age = ''){
+//           return this.fname + " " + this.lname + " " + location + " " + age
+//      }
+// }
+
+// let userdata = {
+//      fname:'mythili',
+//      lname:'palanisamy'
+// }
+
+// let fullname = obj.fullName.call(userdata,"Chennai" , 24)
+// let fullname2 = obj.fullName.apply(userdata,)
+
+// let bind = obj.fullName.bind(userdata)
+// console.log(bind());
+
+
+// let json = '[{"name":"Barath","age":61,"role":"Test","id":"1"},{"name":"name 2","age":27,"role":"role 2","id":"2"},{"name":"name 3","age":32,"role":"role 3","id":"3"},{"name":"name 4","age":48,"role":"role 4","id":"4"}]'
+let jstring = '{"name":"John", "age":30, "city":"New York"}'
+
+let userData = {
+     name:'Murali',
+     age:21,
+     role:"Web DEv"
+}
+
+
+
+// let obj = JSON.parse(jstring)
+// console.log(jstring);
+
+// console.log(obj);
+
+let json = JSON.stringify(userData)
+
+console.log(json);
+let message;
+
+let exaple = function(){
+     message = "Hello"
+     console.log(message);
+     
+}
+
+exaple()
+
+console.log(message);
+
+
+
+
+
+
+
+
+// console.log(fullname);
+// console.log(this);
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
