@@ -1,0 +1,354 @@
+.navbar{
+    background-color: white;
+}
+
+.nav-link dropdown-toggle{
+    color: black;
+}
+
+.Buynow-buton
+{
+font-family: 'Poppins', sans-serif ;
+text-size-adjust: 12px;
+font-weight: 600;
+color: white;
+background-color: rgb(170, 210, 54);
+padding: 9px 34px;
+border-radius: 4px;
+text-decoration: none;
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 90px;
+    position: relative;
+}
+
+.landingbanner{
+    width: 100%;
+    height: 1000px;
+    background-image: url(./images/landing-background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+section .col-12{
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay{
+    position: absolute;
+    z-index: -1;
+    text-align: center;
+    justify-content: space-around;
+}
+#maincontent{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    color: black;
+
+}
+
+#maindescription{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+}
+
+
+#col1{
+
+    background-color: #5acda6;
+    padding: 100px 30px 70px 30px;
+    margin: 0%;
+}
+
+#col2{
+    background-color: #91ac41;
+    padding: 100px 30px 70px 30px;
+    
+
+}
+
+#col3{
+    background-color: #e4b476;
+    padding: 100px 30px 70px 30px;
+
+}
+#col4{
+    background-color: #f69dad;
+    padding: 100px 30px 70px 30px;
+}
+
+.steps{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: white
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    color: white;
+}
+
+i{
+width: 96px;
+font-size: 96px;
+color: white;
+}
+
+#col5{
+    width: 100%;
+    background-color: #f7eee2;
+}
+
+.freshfood{
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+
+.veganstore{
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.vegancontent{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 40px 0px 40px;
+    width: 100%;
+}
+
+#col6{
+    background-color: #f7eee2;
+    padding: 0px 80px 0px 80px;
+    margin: 0;
+    
+}
+
+#section4{
+    padding: 50px;
+}
+.section4{
+    background-color: #f5f6fb;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    width: 75%;
+    padding: 30px 20px 30px 20px;
+}
+
+.section4 #sec4{
+    width: 75%;
+    height: 30px;
+}
+.section4 .person1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4 .person1 img{
+    border-radius: 50%;
+    width: 80px;
+    height: 70px;
+}
+
+.section5 .followsec{
+    padding: 100px;
+    background-image: url(./images/strawberry-white.png);
+    background-repeat: no-repeat;
+    flex:30%;
+}
+.section5{
+    box-sizing: border-box;
+}
+.section5 .followsec h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+}
+.section5 .followsec p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+.section5 .followsec button{
+background-color:#f69dad;
+color: white;
+border: none;
+border-radius: 5px;
+margin-top:20px;
+padding:20px 50px;
+font-family: 'Poppins', sans-serif;
+font-weight:600;
+}
+.section5 .followsec input{
+    width:300px;
+    height:60px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    padding:10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+}
+
+/* .section5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+
+}
+
+.leftimage{
+   position: relative;
+
+}
+
+.leftimage img{
+    width: 1000px;
+    height: auto;
+
+}
+
+.rightimage{
+    max-width: 400px;
+    background-image: url(./images/strawberry-white.png);
+    text-align: center;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}  */
+.section6-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #f6fcfa;
+    height: 200px;
+    padding: 60px 100px 90px 100px;
+}
+.sec6 {
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+}
+.sec6-subtext {
+    font-size: 16px;
+    color: #8ae8c2;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.Section7{
+    padding: 50px 0px 50px 0px;
+}
+
+footer .row{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+footer{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    padding: 60px 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+ ul{
+    list-style: none;
+ }
+
+ .footer-col{
+    width: 15%;
+ }
+
+.footer-col h5{
+    position: relative;
+    margin-bottom: 30px;
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+
+}
+
+.footer-col h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.footer-col p{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+
+.footer-col h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.footer-col h4 ul{
+    list-style: none;
+    
+}
+
+.footer-col ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    text-align: center;
+   
+}
+
